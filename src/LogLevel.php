@@ -7,15 +7,15 @@ namespace Logging;
  */
 class LogLevel
 {
-    public const INFO = 'INFO';
-    public const ERROR = 'ERROR';
+    public const INFO = 'info';
+    public const ERROR = 'error';
     public const NOTICE = 'notice';
-    public const WARNING = 'WARNING';
+    public const WARNING = 'warning';
 
     public const TYPES = [
-        self::INFO => 'Информация',
-        self::ERROR => 'Ошибка',
-        self::NOTICE => 'Уведомление',
-        self::WARNING => 'Предупреждение',
+        self::INFO => 'информация',
+        self::ERROR => 'ошибка',
+        self::NOTICE => 'уведомление',
+        self::WARNING => 'предупреждение',
     ];
 }
